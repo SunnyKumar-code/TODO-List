@@ -14,6 +14,12 @@ addbtn.addEventListener("click", function() {
    
 });
 
+index.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        addbtn.click();
+    }
+});
+
 ul.addEventListener("click", function(event) {
     if (event.target.classList.contains("del-btn")) {
         event.target.parentElement.remove();
