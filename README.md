@@ -40,7 +40,5 @@ Check out the live demo of the application [here](https://sunnykumar-code.github
 
 3. Open `index.html` in your preferred browser.
 
-## License
 
-This project is open source and available under the [MIT License](LICENSE).
 
