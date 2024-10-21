@@ -110,3 +110,16 @@ h1{
 
     }
 }
+@media screen and (max-width: 1060px){
+    .input{
+        flex-direction: column;
+    }
+   .add-btn{
+    margin-top: 10px;
+    width: 85%;
+ 
+   }
+    #taskList{
+        max-height: none;
+    }
+}
